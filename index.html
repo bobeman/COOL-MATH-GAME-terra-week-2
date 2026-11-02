@@ -5,7 +5,7 @@
     </head>
 
     <body>
-
+<!--This is the intro Page -->
         <div id ="intro-card">
             <h2>What is your name?</h2>
             <input id="user-input">
@@ -23,6 +23,7 @@
                 </div> 
             </div>
         </div>
+        <!--This is the custom dificulty Page -->
         <div id="settings-card-1">
             <h2>Choose Your Subject!</h2>
             <button class="card-options" onclick="game1()">Addition</button>
@@ -34,18 +35,28 @@
             <button class="card-options" onclick="game3()">Multiplication</button>
             <button class="card--options" onclick="game4()">Division</button>
         </div>
-        
+        <!--This is the attual game section -->
         <div id="game">
             <p id="score"></p>
             <h1 id="Questions"></h1>
             <div id="box">?</div>
-            <div id="option-con">
+            <div id="options-con">
                 <div id="options"></div>
             </div>
-            <button id="start-B" onclick="game1Questions()">starT</button>
-            <h3 class="Instructions">The gaol is the answer the Questions</h3>
+            <button id="start-B" onclick="game1Questions()">start</button>
+            <h3 class="instructions">The gaol is the answer the Questions</h3>
         </div>
         
+         <div id="game2">
+            <p id="score2"></p>
+            <h1 id="Questions2"></h1>
+            <div id="box2">?</div>
+            <div id="options-con2">
+                <div id="options2"></div>
+            </div>
+            <button id="start-B2" onclick="game2Questions()">start</button>
+            <h3 class="instructions2">The gaol is the answer the Questions</h3>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
