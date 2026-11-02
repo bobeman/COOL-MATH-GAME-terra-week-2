@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Page Title</Title></title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div id ="intro-card">
+            <h2>What is your name?</h2>
+            <input id="user-input">
+            <button id="submit-btn" onclick="mainScreen()">Submit</button>
+        </div>
+
+        <div id = "options-card">
+            <div id="screen">
+                <h2 id="card-title"></h2>
+                <p class="card-subh">Select dificulty</p>
+                <div class="option-con">
+                    <button class="card-options" onclick="easy()">Easy</button>
+                    <button class="card-options" onclick="hard()">Hard</button>
+
+                </div> 
+            </div>
+        </div>
+        <div id="settings-card-1">
+            <h2>Choose Your Subject!</h2>
+            <button class="card-options" onclick="game1()">Addition</button>
+            <button class="card-options" onclick="game2()">Subtraction</button>
+        </div>
+        
+        <div id="settings-card-2">
+            <h2>Choose Your Subject!</h2>
+            <button class="card-options" onclick="game3()">Multiplication</button>
+            <button class="card--options" onclick="game4()">Division</button>
+        </div>
+        
+        <div id="game">
+            <p id="score"></p>
+            <h1 id="Questions"></h1>
+            <div id="box">?</div>
+            <div id="option-con">
+                <div id="options"></div>
+            </div>
+            <button id="start-B" onclick="game1Questions()">starT</button>
+            <h3 class="Instructions">The gaol is the answer the Questions</h3>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

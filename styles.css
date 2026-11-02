@@ -1,0 +1,141 @@
+body {
+    background: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    min-height: 100vh;
+} 
+
+#intro-card{
+    display: block;
+    text-align: center;
+    background: #161B22;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid  #404f63;
+}
+
+#submit-btn{
+    border: 2px solid #7C4DFF;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+#submit-btn:hover{
+    background: #7C4DFF;
+    transform: translateY(-3px);
+    color: #161B22;
+}
+
+#options-card{
+    background: #161B22;
+    border: 0.5px solid #161B25;
+    width: 90vw;
+    height: 85vh;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    display: none;
+    flex-direction: column;
+    max-width: 800px;
+    color: #161B22;
+    color: #161B25;
+}
+
+input{
+    height: 50px;
+    width: 250px;
+    font-size: 40px;
+}
+
+h2{
+    background:  linear-gradient(to right, white, #A29BFE);
+    font-size: 3rem;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 90px;
+}
+
+p{
+    font-size: 20px;
+    color: #F0F6FC;
+    text-align: center;
+}
+.card-options{
+    border: 2px solid #7C4DFF;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.card-options:hover{
+    background: #7C4DFF;
+    transform: translateY(-3px);
+    color: #161B22;
+}
+
+#settings-card-1{
+    display: none;;
+    background: #161B22;
+    width: 90%;
+    height: 85vh;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    flex-direction: column;
+    margin: 15px;
+    border: 0.5px solid;
+    max-width: 800px;
+}
+#settings-card-2{
+    display: none;;
+    background: #161B22;
+    width: 90%;
+    height: 85px;;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    flex-direction: column;
+    margin: 15px;
+    border: 0.5px solid;
+    max-width: 800px;
+}
+
+#game{
+    background: #161B22;
+    border: 2px solid rgba(162, 155, 254, 0.3);
+    width: 90vw;
+    height: 80vh;
+    border-radius: 20px;
+    max-width: 800px;
+    padding: 40px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+}
+h1{
+    background: linear-gradient(to right, white, #A29BFE);
+    font-size: 3.5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
