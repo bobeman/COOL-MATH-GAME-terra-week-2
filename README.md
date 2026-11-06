@@ -9,6 +9,8 @@ I created this project because I think math be learn while engaged, so i decided
 
 ## Screenshot 
 
+<img width="857" height="521" alt="image" src="https://github.com/user-attachments/assets/3aa165b1-7d1d-45d4-9c49-980cbda9c845" />
+
 
 ## How to Play / Run 
 
@@ -19,9 +21,13 @@ I created this project because I think math be learn while engaged, so i decided
    * **Addition Game:** Available in both Easy and Hard modes. 
    * **Subtraction Game:** Enter your name, go to **Easy mode**, and you will be given the option to select **Subtraction**.
 4. **Answer Questions:** Read the question header, look at your score, and click the correct answer button before the time runs out!
-<img width="930" height="444" alt="image" src="https://github.com/user-attachments/assets/096e7430-15cd-4dcb-bb40-b1ee218e4bc7" />
-<img width="887" height="594" alt="image" src="https://github.com/user-attachments/assets/d5236aba-fe45-44aa-916a-ce6eed05640d" />
+
+<img width="522" height="361" alt="image" src="https://github.com/user-attachments/assets/86094141-cd3d-4d68-bbe1-5f1ef867fb9d" />
+
+<img width="887" height="594" alt="image" src="https://github.com/user-attachments/assets/017f6224-4ebf-4eed-b238-e451fd235368" />
+
 <img width="893" height="586" alt="image" src="https://github.com/user-attachments/assets/01aac67f-ebe8-4613-bd03-7b2b0cf13726" />
+
 <img width="857" height="521" alt="image" src="https://github.com/user-attachments/assets/f0d8313a-bd71-4133-a839-8164fb9df0c4" />
 
 
